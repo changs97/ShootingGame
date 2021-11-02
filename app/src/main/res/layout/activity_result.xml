@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/sub_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="80sp"
+        android:text="TextView"
+      />
+    <TextView
+        android:id="@+id/sub_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="TextView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/record"
+        android:textColor="#F44336" />
+
+
+
+    <Button
+        android:id="@+id/sub_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="끝내기"
+        />
+</LinearLayout>
